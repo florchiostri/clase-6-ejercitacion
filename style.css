@@ -1,0 +1,91 @@
+body{
+    background-color:whitesmoke;
+  }
+/*COMENTARIOS*/
+.titulo-principal {
+color:black;
+background-color:whitesmoke;
+font-size: 5rem;
+justify-content:center;
+}
+
+/*PRESENTACION*/
+.presentacion{
+    font-size:3rem;
+    background-color:black;
+    color:white;
+}
+
+/*TABLA HORARIOS ATENCION*/
+.tablita{
+    border:2rem;
+    border-radius:2rem;
+    color:yellowgreen
+}
+.dias-tabla {
+    font-weight: bolder;
+    font: size 50px;;
+    color:black;
+    background-color:lightgreen;
+    border-radius: 2rem;
+   
+}
+.horario-tabla {
+    font-style: italic;
+    color:white;
+    background-color: black;
+    border-radius: 2rem;
+
+}
+/*NAV*/
+.nav-card{
+    display:flex;
+    direction:row;
+    justify-content:center;
+    gap:15%;
+    font-size:2rem;
+    font-style:normal;
+    font-stretch: semi-expanded;
+    padding:0;
+    background-color:lightgreen;
+    color:black
+    
+
+}
+
+/*NUESTROS PRODUCTOS*/
+.productos{
+    background-color:black;
+    color:white
+}
+/*NOSOTROS*/
+.nosotros{
+    background-color: black;
+    color:white
+}
+
+/*HEADER*/
+.menu-lista {
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    
+}
+.header {
+    background-color:whitesmoke;
+    color: black;
+}
+/*FOOTER*/
+.footer-style {
+    background-color:lightgreen;
+    color:black;
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+
+
+}
+/*FOTOS STYLE*/
+.foto-tarjeta{
+    width:400px;
+}
